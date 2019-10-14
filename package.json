@@ -7,6 +7,7 @@
   "author": "Doni Setiawan <donisetiawan.050@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
     "express": "^4.17.1"
   },
