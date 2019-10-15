@@ -17,5 +17,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    "no-shadow": "off",
+    "no-return-await": "off"
   },
 };
