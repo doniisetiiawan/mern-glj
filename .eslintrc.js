@@ -20,6 +20,7 @@ module.exports = {
     "no-shadow": "off",
     "no-return-await": "off",
     "no-tabs": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "no-console": "off"
   },
 };
