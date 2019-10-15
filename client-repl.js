@@ -54,7 +54,7 @@ const replServer = repl.start({
   ignoreUndefined: true,
   async eval(cmd, context, filename, callback) {
     const script = new vm.Script(cmd);
-    const isRaw = process.stdin.isRaw;
+    const { isRaw } = process.stdin;
     process.stdin.setRawMode(false);
     try {
       const res = await Promise.resolve(
