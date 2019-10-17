@@ -4,6 +4,7 @@ module.exports = {
     es6: true,
     node: true,
   },
+  parser: "babel-eslint",
   extends: [
     'airbnb',
   ],
@@ -25,6 +26,7 @@ module.exports = {
     "react/prop-types": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/destructuring-assignment": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "react/no-unescaped-entities": "off"
   },
 };
