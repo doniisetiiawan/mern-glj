@@ -18,10 +18,8 @@ const TodoList = (
   </ul>
 );
 
-class Footer extends React.Component {
-  render() {
-    return <footer>{new Date().toDateString()}</footer>;
-  }
+function Footer() {
+  return <footer>{new Date().toDateString()}</footer>;
 }
 
 ReactDOM.render(
