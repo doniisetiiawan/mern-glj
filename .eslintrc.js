@@ -27,6 +27,8 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/destructuring-assignment": "off",
     "no-console": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   },
 };
