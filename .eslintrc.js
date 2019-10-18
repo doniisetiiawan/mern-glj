@@ -29,6 +29,7 @@ module.exports = {
     "no-console": "off",
     "react/no-unescaped-entities": "off",
     "react/jsx-props-no-spreading": "off",
-    "jsx-a11y/label-has-associated-control": "off"
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/forbid-prop-types": "off"
   },
 };
