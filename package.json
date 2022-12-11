@@ -15,7 +15,7 @@
     "compression": "^1.7.4",
     "connect-mongo": "^3.0.0",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "helmet": "^3.21.1",
     "mongoose": "^5.7.5",
